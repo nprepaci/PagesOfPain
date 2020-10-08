@@ -1,0 +1,16 @@
+PODS:
+  - SwiftVideoBackground (3.4.0)
+
+DEPENDENCIES:
+  - SwiftVideoBackground
+
+SPEC REPOS:
+  trunk:
+    - SwiftVideoBackground
+
+SPEC CHECKSUMS:
+  SwiftVideoBackground: 826e0567c737ded2a211aa309e9951c643695e8f
+
+PODFILE CHECKSUM: e7cf2adf9aa6b9190fcfb85b628ed503cd07765c
+
+COCOAPODS: 1.9.3

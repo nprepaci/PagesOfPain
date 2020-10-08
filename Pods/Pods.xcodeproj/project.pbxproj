@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096CA4FDF17299E79C0B893EC8AFF191 /* Pods-PagesOfPainTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C1531806A887DDC7C8AD19664C5AD /* Pods-PagesOfPainTests-dummy.m */; };
+		2F57C310A40462328E654E9BD26311F3 /* SwiftVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = E78B3E6B05815C5DECB1099BED816B51 /* SwiftVideoBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3787149578B1C727E66F128F814FB406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		58E5292B66E33336487404E4CCF17788 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DCAAA3E709AA5767E6A1B6DCEE65A5 /* VideoBackground.swift */; };
+		5BBBABE11FBA568F09EE62835FADC038 /* Pods-PagesOfPain-PagesOfPainUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F927A2618CB79B152EBC9A39D8A8BF2C /* Pods-PagesOfPain-PagesOfPainUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		700C11D61CE88477645D04D577B2D24C /* Pods-PagesOfPainTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8789DCE35784322A63D64CACE85CF7B /* Pods-PagesOfPainTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BAF8C4AF585EDA8DC9449CF638F0C85 /* Pods-PagesOfPain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8142B401886A56E1BB0CE6ECA726E482 /* Pods-PagesOfPain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C3EE8B85E33BA6A7CE2CBED9FF149D9 /* Pods-PagesOfPain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08307F440CFD55579D28C19B91E5B744 /* Pods-PagesOfPain-dummy.m */; };
+		9025DEE423C54E0462AFB3C2D5B68EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		91B4E14ED95F2894F910147816703A09 /* SwiftVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE4B772D1AF40F34D82B7297FFC78D3 /* SwiftVideoBackground-dummy.m */; };
+		950852EEAE4FF6D88836AD9DB366D7FA /* Pods-PagesOfPain-PagesOfPainUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D06E73F3FEEADC59AB6E2DA39497D /* Pods-PagesOfPain-PagesOfPainUITests-dummy.m */; };
+		C63B533AB13DECEC1F0AE0A79957E9AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CE0E94B3E91B26939B70B616E1731555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D8726BE53FE3101D3E251FBD1516C45A /* SwiftVideoBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF06235B4570A925CCC2DC82786F1E30 /* SwiftVideoBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E231946CB5F9C9DFD09A477936A357F1 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2177F6333065FAFE9D09E57C8B3EE /* VideoBackgroundError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07652A686020C50B3AC964FA30A88A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E734B610B8DC61AE5AC6FFE7ED857A;
+			remoteInfo = SwiftVideoBackground;
+		};
+		48B69D5A41711412F8B90A035FC35D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA368DD68A7188EE4DE2C1F60FF987FC;
+			remoteInfo = "Pods-PagesOfPain";
+		};
+		952942737A2EA01BD8EB2C844994D461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E734B610B8DC61AE5AC6FFE7ED857A;
+			remoteInfo = SwiftVideoBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08307F440CFD55579D28C19B91E5B744 /* Pods-PagesOfPain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagesOfPain-dummy.m"; sourceTree = "<group>"; };
+		17B10BBF5ABCD50DBD522597427FA3E9 /* Pods-PagesOfPain-PagesOfPainUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagesOfPain-PagesOfPainUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		188C1531806A887DDC7C8AD19664C5AD /* Pods-PagesOfPainTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagesOfPainTests-dummy.m"; sourceTree = "<group>"; };
+		259AFD1A437C9D371BCB90CEDF9EE1FB /* Pods-PagesOfPain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PagesOfPain.modulemap"; sourceTree = "<group>"; };
+		280B79F20445A8F8DE46636C4C2951FB /* Pods_PagesOfPain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PagesOfPain.framework; path = "Pods-PagesOfPain.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33DCAAA3E709AA5767E6A1B6DCEE65A5 /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackground.swift; path = SwiftVideoBackground/Sources/VideoBackground.swift; sourceTree = "<group>"; };
+		36C7C01653CDC763F74CA2E5557AEED3 /* Pods-PagesOfPain-PagesOfPainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagesOfPain-PagesOfPainUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3818628EB3EFAFB20DB1EB5C4944D072 /* Pods_PagesOfPainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PagesOfPainTests.framework; path = "Pods-PagesOfPainTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C0A0CFA60A1938839FE6A4C002FFA9 /* Pods-PagesOfPainTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagesOfPainTests-Info.plist"; sourceTree = "<group>"; };
+		616D06E73F3FEEADC59AB6E2DA39497D /* Pods-PagesOfPain-PagesOfPainUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagesOfPain-PagesOfPainUITests-dummy.m"; sourceTree = "<group>"; };
+		68BF9869EB1A6AA46AAB6D2E4C511F82 /* Pods-PagesOfPain-PagesOfPainUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagesOfPain-PagesOfPainUITests-Info.plist"; sourceTree = "<group>"; };
+		6975D06A78D2571FCC57B8B97D41D2BA /* Pods-PagesOfPain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagesOfPain.release.xcconfig"; sourceTree = "<group>"; };
+		6D8CDB93561D3B235015E3B4014A69AB /* SwiftVideoBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftVideoBackground.framework; path = SwiftVideoBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70900D575CAC92CECD6022D0969AB438 /* Pods-PagesOfPain-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagesOfPain-frameworks.sh"; sourceTree = "<group>"; };
+		70C2177F6333065FAFE9D09E57C8B3EE /* VideoBackgroundError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackgroundError.swift; path = SwiftVideoBackground/Sources/VideoBackgroundError.swift; sourceTree = "<group>"; };
+		7BBCF9C8D8864FED7929860CB40DC293 /* Pods-PagesOfPain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagesOfPain.debug.xcconfig"; sourceTree = "<group>"; };
+		8142B401886A56E1BB0CE6ECA726E482 /* Pods-PagesOfPain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagesOfPain-umbrella.h"; sourceTree = "<group>"; };
+		8CE4B772D1AF40F34D82B7297FFC78D3 /* SwiftVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoBackground-dummy.m"; sourceTree = "<group>"; };
+		92F82A5301E67F86D58E6BD02789126E /* Pods-PagesOfPainTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PagesOfPainTests.modulemap"; sourceTree = "<group>"; };
+		95D8967E57F508CFBC3BF7FF3B8BD29B /* Pods-PagesOfPainTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagesOfPainTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9ABF64E3DAA3047FCBE32284C6080217 /* Pods-PagesOfPainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagesOfPainTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D0F1B5C39035AC82A8D98321FEA27E6 /* SwiftVideoBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3FB55A48C87DE386CBA4E3B9FB8B6BE /* SwiftVideoBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.release.xcconfig; sourceTree = "<group>"; };
+		B09D82B3F96440FB0FAF55AE44B19329 /* Pods-PagesOfPain-PagesOfPainUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PagesOfPain-PagesOfPainUITests.modulemap"; sourceTree = "<group>"; };
+		BB400A54AC486CC5D043668926E1A123 /* Pods_PagesOfPain_PagesOfPainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PagesOfPain_PagesOfPainUITests.framework; path = "Pods-PagesOfPain-PagesOfPainUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF06235B4570A925CCC2DC82786F1E30 /* SwiftVideoBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-umbrella.h"; sourceTree = "<group>"; };
+		C1B79E87C434028ECE8EBDAC660AC811 /* SwiftVideoBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftVideoBackground.modulemap; sourceTree = "<group>"; };
+		C9F2CE9D238036551D525CB629CF85D9 /* Pods-PagesOfPainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagesOfPainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D24BD06AC77763D21E9A95A7B8A9CEFA /* Pods-PagesOfPain-PagesOfPainUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagesOfPain-PagesOfPainUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D722F4747A893855FC314DFFA6251689 /* Pods-PagesOfPain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagesOfPain-Info.plist"; sourceTree = "<group>"; };
+		D7ED85BB461BD3B6521DA8F5A9A75214 /* Pods-PagesOfPain-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagesOfPain-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9B5244BD3A8E64078F59318940B3ED2 /* SwiftVideoBackground-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftVideoBackground-Info.plist"; sourceTree = "<group>"; };
+		E0EC39020584E0CBDD7B6669728BEBC1 /* Pods-PagesOfPain-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagesOfPain-acknowledgements.plist"; sourceTree = "<group>"; };
+		E78B3E6B05815C5DECB1099BED816B51 /* SwiftVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftVideoBackground.h; path = SwiftVideoBackground/Sources/SwiftVideoBackground.h; sourceTree = "<group>"; };
+		F25C37F74E3FAAC69EE58D72398FFBC8 /* Pods-PagesOfPain-PagesOfPainUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagesOfPain-PagesOfPainUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F348F8136DAD4954E7CD097893218049 /* SwiftVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-prefix.pch"; sourceTree = "<group>"; };
+		F65759DA29058DB0B2E8E32D1CBA6C74 /* Pods-PagesOfPain-PagesOfPainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagesOfPain-PagesOfPainUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F8789DCE35784322A63D64CACE85CF7B /* Pods-PagesOfPainTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagesOfPainTests-umbrella.h"; sourceTree = "<group>"; };
+		F927A2618CB79B152EBC9A39D8A8BF2C /* Pods-PagesOfPain-PagesOfPainUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagesOfPain-PagesOfPainUITests-umbrella.h"; sourceTree = "<group>"; };
+		FB5D2AD4F193CE25656977E7744E9C16 /* Pods-PagesOfPainTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagesOfPainTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CFB2781A3D69DDB8122F330E0664488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0E94B3E91B26939B70B616E1731555 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B554069AD987B72C06A9A9FED40A3A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787149578B1C727E66F128F814FB406 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF437E45E18BDE48571C172E3F92EA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63B533AB13DECEC1F0AE0A79957E9AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04D25713CBD6AF2DE38917101D18455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9025DEE423C54E0462AFB3C2D5B68EED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D8DFBBD64B60DFCA275843BF0D2A86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B79E87C434028ECE8EBDAC660AC811 /* SwiftVideoBackground.modulemap */,
+				8CE4B772D1AF40F34D82B7297FFC78D3 /* SwiftVideoBackground-dummy.m */,
+				D9B5244BD3A8E64078F59318940B3ED2 /* SwiftVideoBackground-Info.plist */,
+				F348F8136DAD4954E7CD097893218049 /* SwiftVideoBackground-prefix.pch */,
+				BF06235B4570A925CCC2DC82786F1E30 /* SwiftVideoBackground-umbrella.h */,
+				9D0F1B5C39035AC82A8D98321FEA27E6 /* SwiftVideoBackground.debug.xcconfig */,
+				A3FB55A48C87DE386CBA4E3B9FB8B6BE /* SwiftVideoBackground.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftVideoBackground";
+			sourceTree = "<group>";
+		};
+		34C13AAC62A03DE616EF64F3A9C89D8D /* Pods-PagesOfPain */ = {
+			isa = PBXGroup;
+			children = (
+				259AFD1A437C9D371BCB90CEDF9EE1FB /* Pods-PagesOfPain.modulemap */,
+				D7ED85BB461BD3B6521DA8F5A9A75214 /* Pods-PagesOfPain-acknowledgements.markdown */,
+				E0EC39020584E0CBDD7B6669728BEBC1 /* Pods-PagesOfPain-acknowledgements.plist */,
+				08307F440CFD55579D28C19B91E5B744 /* Pods-PagesOfPain-dummy.m */,
+				70900D575CAC92CECD6022D0969AB438 /* Pods-PagesOfPain-frameworks.sh */,
+				D722F4747A893855FC314DFFA6251689 /* Pods-PagesOfPain-Info.plist */,
+				8142B401886A56E1BB0CE6ECA726E482 /* Pods-PagesOfPain-umbrella.h */,
+				7BBCF9C8D8864FED7929860CB40DC293 /* Pods-PagesOfPain.debug.xcconfig */,
+				6975D06A78D2571FCC57B8B97D41D2BA /* Pods-PagesOfPain.release.xcconfig */,
+			);
+			name = "Pods-PagesOfPain";
+			path = "Target Support Files/Pods-PagesOfPain";
+			sourceTree = "<group>";
+		};
+		49CDCCD99B31697E9D770FD7C4185037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD0698CC6FC3C570B8980B55A8809AAC /* SwiftVideoBackground */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		772BC70347FB93DEB7551636185DD401 /* Pods-PagesOfPainTests */ = {
+			isa = PBXGroup;
+			children = (
+				92F82A5301E67F86D58E6BD02789126E /* Pods-PagesOfPainTests.modulemap */,
+				FB5D2AD4F193CE25656977E7744E9C16 /* Pods-PagesOfPainTests-acknowledgements.markdown */,
+				95D8967E57F508CFBC3BF7FF3B8BD29B /* Pods-PagesOfPainTests-acknowledgements.plist */,
+				188C1531806A887DDC7C8AD19664C5AD /* Pods-PagesOfPainTests-dummy.m */,
+				45C0A0CFA60A1938839FE6A4C002FFA9 /* Pods-PagesOfPainTests-Info.plist */,
+				F8789DCE35784322A63D64CACE85CF7B /* Pods-PagesOfPainTests-umbrella.h */,
+				C9F2CE9D238036551D525CB629CF85D9 /* Pods-PagesOfPainTests.debug.xcconfig */,
+				9ABF64E3DAA3047FCBE32284C6080217 /* Pods-PagesOfPainTests.release.xcconfig */,
+			);
+			name = "Pods-PagesOfPainTests";
+			path = "Target Support Files/Pods-PagesOfPainTests";
+			sourceTree = "<group>";
+		};
+		7CE8C1665E57B062379A2D7EBFC12CF6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C13AAC62A03DE616EF64F3A9C89D8D /* Pods-PagesOfPain */,
+				C05A2B81695D23B2372236022A989EA9 /* Pods-PagesOfPain-PagesOfPainUITests */,
+				772BC70347FB93DEB7551636185DD401 /* Pods-PagesOfPainTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD0698CC6FC3C570B8980B55A8809AAC /* SwiftVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				E78B3E6B05815C5DECB1099BED816B51 /* SwiftVideoBackground.h */,
+				33DCAAA3E709AA5767E6A1B6DCEE65A5 /* VideoBackground.swift */,
+				70C2177F6333065FAFE9D09E57C8B3EE /* VideoBackgroundError.swift */,
+				28D8DFBBD64B60DFCA275843BF0D2A86 /* Support Files */,
+			);
+			name = SwiftVideoBackground;
+			path = SwiftVideoBackground;
+			sourceTree = "<group>";
+		};
+		C05A2B81695D23B2372236022A989EA9 /* Pods-PagesOfPain-PagesOfPainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B09D82B3F96440FB0FAF55AE44B19329 /* Pods-PagesOfPain-PagesOfPainUITests.modulemap */,
+				F25C37F74E3FAAC69EE58D72398FFBC8 /* Pods-PagesOfPain-PagesOfPainUITests-acknowledgements.markdown */,
+				17B10BBF5ABCD50DBD522597427FA3E9 /* Pods-PagesOfPain-PagesOfPainUITests-acknowledgements.plist */,
+				616D06E73F3FEEADC59AB6E2DA39497D /* Pods-PagesOfPain-PagesOfPainUITests-dummy.m */,
+				D24BD06AC77763D21E9A95A7B8A9CEFA /* Pods-PagesOfPain-PagesOfPainUITests-frameworks.sh */,
+				68BF9869EB1A6AA46AAB6D2E4C511F82 /* Pods-PagesOfPain-PagesOfPainUITests-Info.plist */,
+				F927A2618CB79B152EBC9A39D8A8BF2C /* Pods-PagesOfPain-PagesOfPainUITests-umbrella.h */,
+				36C7C01653CDC763F74CA2E5557AEED3 /* Pods-PagesOfPain-PagesOfPainUITests.debug.xcconfig */,
+				F65759DA29058DB0B2E8E32D1CBA6C74 /* Pods-PagesOfPain-PagesOfPainUITests.release.xcconfig */,
+			);
+			name = "Pods-PagesOfPain-PagesOfPainUITests";
+			path = "Target Support Files/Pods-PagesOfPain-PagesOfPainUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA69FEA6F58B2F442C3E498B69688964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280B79F20445A8F8DE46636C4C2951FB /* Pods_PagesOfPain.framework */,
+				BB400A54AC486CC5D043668926E1A123 /* Pods_PagesOfPain_PagesOfPainUITests.framework */,
+				3818628EB3EFAFB20DB1EB5C4944D072 /* Pods_PagesOfPainTests.framework */,
+				6D8CDB93561D3B235015E3B4014A69AB /* SwiftVideoBackground.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				49CDCCD99B31697E9D770FD7C4185037 /* Pods */,
+				CA69FEA6F58B2F442C3E498B69688964 /* Products */,
+				7CE8C1665E57B062379A2D7EBFC12CF6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12C8074647CDEA63BE272DE8EA4241A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8726BE53FE3101D3E251FBD1516C45A /* SwiftVideoBackground-umbrella.h in Headers */,
+				2F57C310A40462328E654E9BD26311F3 /* SwiftVideoBackground.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE99D79CABC57DAE09B9475A15FA58A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBBABE11FBA568F09EE62835FADC038 /* Pods-PagesOfPain-PagesOfPainUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537C02493910F78E5582D0D08DCBD795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700C11D61CE88477645D04D577B2D24C /* Pods-PagesOfPainTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFA48064F493CC581A51181322352C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAF8C4AF585EDA8DC9449CF638F0C85 /* Pods-PagesOfPain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F32C55E0312ADFB971169F98AD8D1A0 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */;
+			buildPhases = (
+				12C8074647CDEA63BE272DE8EA4241A5 /* Headers */,
+				CE54C82677F3FEA63DA1B5D77E9797C0 /* Sources */,
+				B554069AD987B72C06A9A9FED40A3A71 /* Frameworks */,
+				AAAED2E222BA81DD33C9D99DD462519E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVideoBackground;
+			productName = SwiftVideoBackground;
+			productReference = 6D8CDB93561D3B235015E3B4014A69AB /* SwiftVideoBackground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46286E974C16485BFF5B93977B4904F2 /* Pods-PagesOfPain-PagesOfPainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2B3F238CE94F0B59EA8CA7C5B88259 /* Build configuration list for PBXNativeTarget "Pods-PagesOfPain-PagesOfPainUITests" */;
+			buildPhases = (
+				1BE99D79CABC57DAE09B9475A15FA58A /* Headers */,
+				AD419584D171164D83DEE0FF88A40CAD /* Sources */,
+				E04D25713CBD6AF2DE38917101D18455 /* Frameworks */,
+				8D8833FA3A80F993630CB3B48151D034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162A5DF0AA0EDCC37B493BE48350231C /* PBXTargetDependency */,
+			);
+			name = "Pods-PagesOfPain-PagesOfPainUITests";
+			productName = "Pods-PagesOfPain-PagesOfPainUITests";
+			productReference = BB400A54AC486CC5D043668926E1A123 /* Pods_PagesOfPain_PagesOfPainUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEAB7F4A06B0EB0451101E452C9D1F72 /* Pods-PagesOfPainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4EBE34ED05B2A94C98B6BA9D46E453 /* Build configuration list for PBXNativeTarget "Pods-PagesOfPainTests" */;
+			buildPhases = (
+				537C02493910F78E5582D0D08DCBD795 /* Headers */,
+				8B933E3047EAD327C3DF37196A7BFE35 /* Sources */,
+				5CFB2781A3D69DDB8122F330E0664488 /* Frameworks */,
+				EF817B2C6233AE1382CD36B5323BE74C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A9EF4890345FDCB591514717E86D80 /* PBXTargetDependency */,
+			);
+			name = "Pods-PagesOfPainTests";
+			productName = "Pods-PagesOfPainTests";
+			productReference = 3818628EB3EFAFB20DB1EB5C4944D072 /* Pods_PagesOfPainTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA368DD68A7188EE4DE2C1F60FF987FC /* Pods-PagesOfPain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37FC3F5841BC350893089421D21C750 /* Build configuration list for PBXNativeTarget "Pods-PagesOfPain" */;
+			buildPhases = (
+				BEFA48064F493CC581A51181322352C8 /* Headers */,
+				9EB66C283510F2451FCF1BCB56658FDA /* Sources */,
+				DF437E45E18BDE48571C172E3F92EA2A /* Frameworks */,
+				965520006F969A2601A05174B0B066EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6585BE8BCF5AFCFC0D5BB352A74F6FE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PagesOfPain";
+			productName = "Pods-PagesOfPain";
+			productReference = 280B79F20445A8F8DE46636C4C2951FB /* Pods_PagesOfPain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CA69FEA6F58B2F442C3E498B69688964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA368DD68A7188EE4DE2C1F60FF987FC /* Pods-PagesOfPain */,
+				46286E974C16485BFF5B93977B4904F2 /* Pods-PagesOfPain-PagesOfPainUITests */,
+				DEAB7F4A06B0EB0451101E452C9D1F72 /* Pods-PagesOfPainTests */,
+				15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D8833FA3A80F993630CB3B48151D034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965520006F969A2601A05174B0B066EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAED2E222BA81DD33C9D99DD462519E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF817B2C6233AE1382CD36B5323BE74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B933E3047EAD327C3DF37196A7BFE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096CA4FDF17299E79C0B893EC8AFF191 /* Pods-PagesOfPainTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB66C283510F2451FCF1BCB56658FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3EE8B85E33BA6A7CE2CBED9FF149D9 /* Pods-PagesOfPain-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD419584D171164D83DEE0FF88A40CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950852EEAE4FF6D88836AD9DB366D7FA /* Pods-PagesOfPain-PagesOfPainUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE54C82677F3FEA63DA1B5D77E9797C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B4E14ED95F2894F910147816703A09 /* SwiftVideoBackground-dummy.m in Sources */,
+				58E5292B66E33336487404E4CCF17788 /* VideoBackground.swift in Sources */,
+				E231946CB5F9C9DFD09A477936A357F1 /* VideoBackgroundError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162A5DF0AA0EDCC37B493BE48350231C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoBackground;
+			target = 15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */;
+			targetProxy = 07652A686020C50B3AC964FA30A88A38 /* PBXContainerItemProxy */;
+		};
+		6585BE8BCF5AFCFC0D5BB352A74F6FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoBackground;
+			target = 15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */;
+			targetProxy = 952942737A2EA01BD8EB2C844994D461 /* PBXContainerItemProxy */;
+		};
+		E1A9EF4890345FDCB591514717E86D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PagesOfPain";
+			target = EA368DD68A7188EE4DE2C1F60FF987FC /* Pods-PagesOfPain */;
+			targetProxy = 48B69D5A41711412F8B90A035FC35D7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05350B6BB7BEC53FA8475353B62D744F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABF64E3DAA3047FCBE32284C6080217 /* Pods-PagesOfPainTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagesOfPainTests/Pods-PagesOfPainTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PagesOfPainTests/Pods-PagesOfPainTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B190E7733901DC9BA98B1579E7E6133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BBCF9C8D8864FED7929860CB40DC293 /* Pods-PagesOfPain.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagesOfPain/Pods-PagesOfPain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PagesOfPain/Pods-PagesOfPain.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8A8989132B28CD233D105A48C3A0E25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65759DA29058DB0B2E8E32D1CBA6C74 /* Pods-PagesOfPain-PagesOfPainUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagesOfPain-PagesOfPainUITests/Pods-PagesOfPain-PagesOfPainUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PagesOfPain-PagesOfPainUITests/Pods-PagesOfPain-PagesOfPainUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6E4EBDE40A71038D9DB223302567666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F2CE9D238036551D525CB629CF85D9 /* Pods-PagesOfPainTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagesOfPainTests/Pods-PagesOfPainTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PagesOfPainTests/Pods-PagesOfPainTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B9A7072F946873345DFD93FA848DA6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FB55A48C87DE386CBA4E3B9FB8B6BE /* SwiftVideoBackground.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C687D0A183A6B84403BDD94F221B82F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6975D06A78D2571FCC57B8B97D41D2BA /* Pods-PagesOfPain.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagesOfPain/Pods-PagesOfPain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PagesOfPain/Pods-PagesOfPain.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED80C07D9A17B85971316E9B3ED79DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0F1B5C39035AC82A8D98321FEA27E6 /* SwiftVideoBackground.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA0CDB2AD84EA2765C34608833078CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C7C01653CDC763F74CA2E5557AEED3 /* Pods-PagesOfPain-PagesOfPainUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagesOfPain-PagesOfPainUITests/Pods-PagesOfPain-PagesOfPainUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PagesOfPain-PagesOfPainUITests/Pods-PagesOfPain-PagesOfPainUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4EBE34ED05B2A94C98B6BA9D46E453 /* Build configuration list for PBXNativeTarget "Pods-PagesOfPainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E4EBDE40A71038D9DB223302567666 /* Debug */,
+				05350B6BB7BEC53FA8475353B62D744F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F32C55E0312ADFB971169F98AD8D1A0 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED80C07D9A17B85971316E9B3ED79DB2 /* Debug */,
+				B9A7072F946873345DFD93FA848DA6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37FC3F5841BC350893089421D21C750 /* Build configuration list for PBXNativeTarget "Pods-PagesOfPain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B190E7733901DC9BA98B1579E7E6133 /* Debug */,
+				C687D0A183A6B84403BDD94F221B82F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2B3F238CE94F0B59EA8CA7C5B88259 /* Build configuration list for PBXNativeTarget "Pods-PagesOfPain-PagesOfPainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0CDB2AD84EA2765C34608833078CED /* Debug */,
+				8A8989132B28CD233D105A48C3A0E25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
