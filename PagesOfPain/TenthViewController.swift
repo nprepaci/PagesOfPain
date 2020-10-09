@@ -13,7 +13,8 @@ class TenthViewController: UIViewController {
     //let flickerClass = FlickerLights()
     let emitter = Emitter()
     
-    //this label is to change colors for the flash 
+    //this label is to change colors for the flash
+    //currently not enabled - need to create while loop on thread separate from main to prevent UI from locking up
     @IBOutlet weak var flashingLabel: UILabel!
     
     @IBOutlet weak var goThroughDoorsButton: UIButton!
